@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body{
+  background-color:#043d3a
+}
+
+/* .login_container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login{
+  background-color: #fff;
+  width: 500px;
+  border-radius:10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.login_header{
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid rgb(0,0,0,.2);
+}
+
+.login_header span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.login_content{  
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login_content input{  
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 6px;
+  border: none;
+  border-bottom: 1px solid rgb(0,0,0,.2);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.login_content input:focus{  
+  outline:none;
+}
+
+
+.login_content #forgot{  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.login_content #submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+ }
+
+a[href="/forgot"]{ 
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px; 
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+
+a[href="/forgot" ]:hover{  
+  color: red;
+  text-decoration: none;
+}
+
+a[href="/login"]{  
+  text-decoration: none;
+  padding: 16px 8px;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: #013532;
+  width: 130px;
+  text-align: center;
+  color: #fff;
+  border-radius: 25px;
+  border:1px solid#013532;
+}
+
+a[href="/login" ]:hover{  
+  background-color: #fff;
+  color: #013532;
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+.login_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+a[href="/signup"]{  
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(58, 58, 58);
+}
+
+a[href="/signup"] span{  
+  color: blue;
+} */
+
+/* Linkedin Post */
+/* 
+.linkedin_post_container{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.linkedin_post{
+  background-color: #fff;
+  border-radius: 20px;
+  width: 800px;
+  
+}
+
+.linkedin_post .linkedin_post_header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.linkedin_post .linkedin_post_header .linkedin_post_owner{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.linkedin_post_text{
+  
+  padding: 10px 15px;
+}
+
+#profile-detail{
+ display: flex;
+ flex-direction: column;
+ padding-left: 10px;
+}
+
+#profile-detail span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+ }
+
+ #profile-detail span:first-child{
+  font-weight: bold;
+  font-size: 18px;margin-bottom: 5px;
+ }
+
+ #profile-detail span:last-child{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ }
+
+ #profile-detail svg{
+  font-size: 18px;
+    color: gray;
+ }
+
+#circle svg{
+   font-size: 6px
+ }
+
+.linkedin_post .linkedin_post_header .linkedin_post_owner .linkedin_post_owner_avatar img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.linkedin_post_image_detail{
+  padding: 20px 15px;
+  background-color: rgb(185, 185, 185);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.detail-header{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.detail-header span{
+ margin-bottom: 15px;
+ font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  
+  color: rgba(0,0,0,.6);
+}
+
+.detail-header span a{
+  text-decoration:none;
+  color: rgba(0,0,0,.6);
+ }
+
+ .detail-header span a:hover{
+  color: blue;
+ }
+
+.detail-header span:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  
+  color: rgba(0,0,0,.8);
+ }
+
+ .detail-header span:last-child span{
+  padding: 0 10px;
+  margin:0;
+ }
+ .detail-header span:last-child{
+  display: flex;
+  align-items: center;
+ }
+
+.linkedin_post_detail svg{
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor:pointer;
+  color: rgb(58, 58, 58);
+}
+
+#post_text{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+#more-dots{
+  color: rgb(58, 58, 58);
+  cursor: pointer;
+}
+
+#more-dots:hover{
+  text-decoration:underline;
+  color: blue
+}
+
+#more {display: none;}
+
+.linkedin_post_image{
+  position: relative;
+}
+
+.linkedin_post_image img{
+  width: 800px;
+  height: 800px;
+  object-fit: fill;
+}
+
+.linkedin_post_actions{
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(42, 40, 40,.25);
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.linkedin_post_footer{
+  padding: 25px 15px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkedin_post_footer div{
+  width: 25%;
+  padding: 5px;
+  color: rgba(0,0,0,.4);
+  text-align: center;
+  cursor:pointer;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.linkedin_post_footer div:hover{
+  color: rgba(0,0,0,.75);
+}
+
+#like{
+  color: blue;
+  font-size: 18px;
+  cursor:pointer;
+}
+
+#hearth{
+  color: red;
+  font-size: 18px;
+  cursor:pointer;
+}
+
+#like-count{
+  color: rgba(0,0,0,.6);
+  font-size: 15px;
+  cursor:pointer;
+}
+
+.comments{
+  color: rgba(0,0,0,.6);
+  font-size: 15px;
+  cursor:pointer;
+}*/
+
+/****************************************************/
+
+#list_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#list_container ul{
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  padding: 20px 15px;
+  margin-top: 30px;
+  border-radius: 18px;
+  width: 600px
+}
+
+#list_container ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+#list_container ul li span{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 12px;
+}
+
+#list_container ul li img{
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+} 
